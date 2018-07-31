@@ -1,7 +1,3 @@
-function sortList(list) {
-    
-}
-
 let app = new Vue({
     el: "#content",
     data: {
@@ -9,6 +5,8 @@ let app = new Vue({
         prebuilts: []
     },
     created: function() {
-        fetch("prebuilds.json").then(res => res.json()).then(jason => this.prebuilts = jason);
+        fetch("prebuilds.json").then(res => res.json()).then(jason => {
+            this.prebuilts = _.sortBy(jason, ['price'])
+        });
     }
 })

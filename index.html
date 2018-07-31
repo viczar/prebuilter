@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
 </head>
 <body>
     <div id="header">
         <div id="title">
             <div>Prebuilter</div>
-            <div id="subtitle">A think I have an audience.</div>
+            <div id="subtitle">I think I may have an audience.</div>
         </div>
     </div>
 
@@ -24,12 +25,25 @@
                 <div class="itemTitlePrice">${{prebuilt.price}}</div>
             </div>
             <div class="itemContent">
-                <div class="itemPicture">
+                <a :href="prebuilt.link" class="itemPicture">
                     <img :src="'imgs/prebuilts/' + prebuilt.img">
-                </div>
+                </a>
                 <div class="itemDescription">
                     <div class="itemDescriptionName">{{prebuilt.name}}</div>
-                    <div class="itemRatings">Performance Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div class="itemRatings">
+                        Performance Rating: 
+                        <span v-for="index in [1,2,3,4,5]">
+                            <span v-if="index <= Math.floor(prebuilt.rating)">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span v-else-if="(index - prebuilt.rating) == 0.5">
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span v-else>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </span>
+                    </div>
                     <div class="itemDescriptionReview">{{prebuilt.review}}</div>
                     <div class="itemDescriptionSpecs">Specifications:</div>
 
