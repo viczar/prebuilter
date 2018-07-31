@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prebuilter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="title">
+            <div>Prebuilter</div>
+            <div id="subtitle">A think I have an audience.</div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div v-for="prebuilt in prebuilts" class="item">
+            <div class="itemHeader">
+                <div class="itemTitle">{{prebuilt.tier}} Tier</div>
+                <div class="itemTitlePrice">${{prebuilt.price}}</div>
+            </div>
+            <div class="itemContent">
+                <div class="itemPicture">
+                    <img :src="'imgs/prebuilts/' + prebuilt.img">
+                </div>
+                <div class="itemDescription">
+                    <div class="itemDescriptionName">{{prebuilt.name}}</div>
+                    <div class="itemRatings">Performance Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div class="itemDescriptionReview">{{prebuilt.review}}</div>
+                    <div class="itemDescriptionSpecs">Specifications:</div>
+
+                    <div class="itemDescriptionCPU">CPU: {{prebuilt.cpu}}</div>
+                    <div class="itemDescriptionGPU">GPU: {{prebuilt.gpu}}</div>
+                    <div class="itemDescriptionStorage">Storage: {{prebuilt.hdd}} HDD, {{prebuilt.ssd}} SSD</div>
+                    <div class="itemDescriptionRAM">RAM: {{prebuilt.ram}}GB</div>
+                    <div class="itemDescriptionPrice">Price: ${{prebuilt.price}}</div>
+
+                    <a :href="prebuilt.link" class="itemButton">
+                        <i class="fab fa-amazon"></i> BUY ON AMAZON
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
