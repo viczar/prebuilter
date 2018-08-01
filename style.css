@@ -10,6 +10,21 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
+.alink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.alink:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.alink:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 #title {
     font-family: 'Nova Flat', cursive;
     grid-column-start: 2;
@@ -38,8 +53,39 @@ body {
     grid-template-columns: 1fr auto 1fr;
 }
 
+#nav {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#nav-bar {
+    max-width: 864px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 28px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background: #0094FF;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Nova Flat', cursive;
+    font-size: 1.1rem;
+    padding: 8px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nav-selected {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
 #content {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
     justify-content: center;
     display: grid;
@@ -52,6 +98,16 @@ body {
     max-width: 864px;
     background: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.itemArticleHeader {
+    color: white;
+    background: #FF580D;
+    padding: 8px;
+    padding-left: 22px;
+    font-size: 2rem;
+    font-family: 'Nova Flat', cursive;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .itemHeader {
@@ -72,6 +128,10 @@ body {
     color: white;
     background: #FF580D;
     padding: 8px;
+}
+
+.itemArticleContent {
+    padding: 22px;
 }
 
 .itemContent {
@@ -115,6 +175,7 @@ img {
     font-family: 'Nova Flat', cursive;
     text-align: center;
     padding: 10px;
+    margin: 10px;
     background: #FFCE0D;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -127,6 +188,7 @@ img {
 
 .itemButton:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    filter: brightness(107%);
 }
 
 .itemButton:visited {
@@ -135,7 +197,15 @@ img {
 }
 
 @media screen and (max-width: 864px) {
-    #item {
+    .item {
         min-width: 100vw;
+    }
+
+    .itemContent {
+        grid-template-columns: 1fr;
+    }
+
+    #nav-bar {
+        display: none;
     }
 }
