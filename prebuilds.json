@@ -1,6 +1,6 @@
 [
     {
-        "tier" : "Minimal Tier",
+        "tier" : "Modest",
         "name": "SkyTech ArchAngel",
         "img": "81aVtkFWenL._SL1500_.jpg",
         "rating": 3,
@@ -14,7 +14,7 @@
         "link": "https://amzn.to/2O2lhXa"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Entry",
         "name": "HP Pavilion Gaming",
         "img": "91jH4Hn6YzL._SL1500_.jpg",
         "rating": 3,
@@ -28,7 +28,7 @@
         "link": "https://amzn.to/2M7AQfI"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Fair",
         "name": "Dell Inspiron 5675",
         "img": "71B+NperySL._SL1500_.jpg",
         "rating": 3,
@@ -42,7 +42,7 @@
         "link": "https://amzn.to/2NY5M2o"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Fair",
         "name": "CYBERPOWERPC Gamer Xtreme",
         "img": "81AzXZuhiqL._SL1500_.jpg",
         "rating": 3.5,
@@ -56,7 +56,7 @@
         "link": "https://amzn.to/2Mbievr"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Good",
         "name": "CYBERPOWERPC BattleBox Essential",
         "img": "814S1uY5UVL._SL1500_.jpg",
         "rating": 3.5,
@@ -70,7 +70,7 @@
         "link": "https://amzn.to/2vcukxK"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Good",
         "name": "iBUYPOWER Elite Gaming Desktop",
         "img": "71BvGJe4FkL._SL1200_.jpg",
         "rating": 3.5,
@@ -84,7 +84,7 @@
         "link": "https://amzn.to/2vcukxK"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Good",
         "name": "iBUYPOWER Elite Gaming Desktop",
         "img": "81dMA8N9U5L._SL1500_.jpg",
         "rating": 3.5,
@@ -98,7 +98,7 @@
         "link": "https://amzn.to/2vcukxK"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Very Good",
         "name": "CYBERPOWERPC Gamer Xtreme VR",
         "img": "81Pz14q++HL._SL1500_.jpg",
         "rating": 3.5,
@@ -112,7 +112,7 @@
         "link": "https://amzn.to/2NZXQ0G"
     },
     {
-        "tier" : "Minimal",
+        "tier" : "Great",
         "name": "iBUYPOWER Gaming PC Desktop 9200",
         "img": "71NOrbgUhyL._SL1200_.jpg",
         "rating": 4,
@@ -126,7 +126,7 @@
         "link": "https://amzn.to/2AzjZRI"
     },
     {
-        "tier" : "Good",
+        "tier" : "Excellent",
         "name": "iBUYPOWER Slate 9210",
         "img": "test.jpg",
         "rating": 4,
@@ -140,7 +140,7 @@
         "link": "https://amzn.to/2LPSCaD"
     },
     {
-        "tier" : "Good",
+        "tier" : "Excellent",
         "name": "Alienware Aurora R7",
         "img": "71ArnYAZr-L._SL1500_.jpg",
         "rating": 4,
@@ -154,7 +154,7 @@
         "link": "https://amzn.to/2AyHavt"
     },
     {
-        "tier" : "Good",
+        "tier" : "Super",
         "name": "CYBERPOWERPC Gamer Supreme Liquid Cool",
         "img": "61NIQ9vhYIL._SL1000_.jpg",
         "rating": 4,
@@ -168,7 +168,7 @@
         "link": "https://amzn.to/2v8IwYw"
     },
     {
-        "tier" : "Good",
+        "tier" : "Monster",
         "name": "CYBERPOWERPC Gamer Xtreme VR",
         "img": "81vAwpTFqtL._SL1500_.jpg",
         "rating": 5,
