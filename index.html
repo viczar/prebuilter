@@ -36,10 +36,10 @@
         <div v-for="prebuilt in prebuilts" class="item">
             <div class="itemHeader">
                 <div class="itemTitle">{{prebuilt.tier}} Tier</div>
-                <div class="itemTitlePrice">${{prebuilt.price}}</div>
+                <div class="itemTitlePrice">${{prebuilt.price}}*</div>
             </div>
             <div class="itemContent">
-                <a :href="prebuilt.link" class="itemPicture">
+                <a :href="prebuilt.link" target="_blank" class="itemPicture">
                     <img :src="'imgs/prebuilts/' + prebuilt.img">
                 </a>
                 <div class="itemDescription">
@@ -65,14 +65,17 @@
                     <div class="itemDescriptionGPU">GPU: {{prebuilt.gpu}}</div>
                     <div class="itemDescriptionStorage">Storage: {{prebuilt.hdd}}GB HDD, {{prebuilt.ssd}}GB SSD</div>
                     <div class="itemDescriptionRAM">RAM: {{prebuilt.ram}}GB</div>
-                    <div class="itemDescriptionPrice">Price: ${{prebuilt.price}}</div>
+                    <div class="itemDescriptionPrice">Price: ${{prebuilt.price}}*</div>
 
-                    <a :href="prebuilt.link" class="itemButton">
+                    <a :href="prebuilt.link" target="_blank" class="itemButton">
                         <i class="fab fa-amazon"></i> BUY ON AMAZON
                     </a>
                 </div>
             </div>
         </div>
+    </div>
+    <div style="text-align: center; color: white; font-size: 0.8rem; margin-bottom: 12px;">
+        *Prices are for reference use only and might not take into account shipping cost, discounts or other factors that could modify the final cost of the listed items.
     </div>
     <script src="app.js"></script>
 </body>
