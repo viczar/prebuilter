@@ -24,7 +24,7 @@
         "hdd": 1024,
         "ssd": 0,
         "ram": 8,
-        "price": 504,
+        "price": 509,
         "link": "https://amzn.to/2M7AQfI"
     },
     {
@@ -84,6 +84,48 @@
         "link": "https://amzn.to/2vcukxK"
     },
     {
+        "tier" : "Minimal",
+        "name": "iBUYPOWER Elite Gaming Desktop",
+        "img": "81dMA8N9U5L._SL1500_.jpg",
+        "rating": 3.5,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Ryzen 7 1700X",
+        "gpu": "Ryzen RX 580",
+        "hdd": 1024,
+        "ssd": 120,
+        "ram": 8,
+        "price": 899,
+        "link": "https://amzn.to/2vcukxK"
+    },
+    {
+        "tier" : "Minimal",
+        "name": "CYBERPOWERPC Gamer Xtreme VR",
+        "img": "81Pz14q++HL._SL1500_.jpg",
+        "rating": 3.5,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Intel i7 8700",
+        "gpu": "Nvidia GTX 1060",
+        "hdd": 1024,
+        "ssd": 120,
+        "ram": 16,
+        "price": 1199,
+        "link": "https://amzn.to/2NZXQ0G"
+    },
+    {
+        "tier" : "Minimal",
+        "name": "iBUYPOWER Gaming PC Desktop 9200",
+        "img": "71NOrbgUhyL._SL1200_.jpg",
+        "rating": 4,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Intel i7 8700K",
+        "gpu": "Nvidia GTX 1070",
+        "hdd": 1024,
+        "ssd": 240,
+        "ram": 16,
+        "price": 1399,
+        "link": "https://amzn.to/2AzjZRI"
+    },
+    {
         "tier" : "Good",
         "name": "iBUYPOWER Slate 9210",
         "img": "test.jpg",
@@ -91,10 +133,52 @@
         "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
         "cpu": "Intel i7 8700k",
         "gpu": "Nvidia 1070 Ti",
-        "hdd": "1024",
-        "ssd": "240",
+        "hdd": 1024,
+        "ssd": 240,
         "ram": 16,
         "price": 1500,
         "link": "https://amzn.to/2LPSCaD"
+    },
+    {
+        "tier" : "Good",
+        "name": "Alienware Aurora R7",
+        "img": "71ArnYAZr-L._SL1500_.jpg",
+        "rating": 4,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Intel i7 8700",
+        "gpu": "Nvidia 1080",
+        "hdd": 2048,
+        "ssd": 32,
+        "ram": 16,
+        "price": 1625,
+        "link": "https://amzn.to/2AyHavt"
+    },
+    {
+        "tier" : "Good",
+        "name": "CYBERPOWERPC Gamer Supreme Liquid Cool",
+        "img": "61NIQ9vhYIL._SL1000_.jpg",
+        "rating": 4,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Intel i7 8700k",
+        "gpu": "Nvidia 1080",
+        "hdd": 3072,
+        "ssd": 240,
+        "ram": 32,
+        "price": 1859,
+        "link": "https://amzn.to/2v8IwYw"
+    },
+    {
+        "tier" : "Good",
+        "name": "CYBERPOWERPC Gamer Xtreme VR",
+        "img": "81vAwpTFqtL._SL1500_.jpg",
+        "rating": 5,
+        "review": "Step up your game with this finely tuned gaming rig optimized for the best gaming experience. Enjoy the latest and greatest high demanding games like Overwatch, GTA, or League of Legends which you can enjoy at 1080p with 60 FPS. Using the combination of next gen Intel core processor and Geforce GTX graphics cards, you can expect to experience maximum performance in everything you do.",
+        "cpu": "Intel i7 8700k",
+        "gpu": "Nvidia 1080 Ti",
+        "hdd": 1024,
+        "ssd": 240,
+        "ram": 16,
+        "price": 1999,
+        "link": "https://amzn.to/2v96Fyp"
     }
 ]
