@@ -33,7 +33,29 @@
    </div>
 
     <div id="content">
-        <div v-for="prebuilt in prebuilts" class="item">
+        <div id="price-selector">
+            <div class="price-item">
+                <div class="price-item-header">Min Budget</div>
+                <div class="price-item-content">
+                    <span style="font-size: 1.2rem">$</span>
+                    <input type="text" placeholder="500" v-model="minprice">
+                </div>
+            </div>
+            <div class="price-item">
+                    <div class="price-item-header">Max Budget</div>
+                    <div class="price-item-content">
+                        <span style="font-size: 1.2rem">$</span>
+                        <input type="text" placeholder="2500" v-model="maxprice">
+                    </div>
+                </div>
+        </div>
+        <div v-if="visiblePrebuilts.length === 0" class="item">
+            <div class="cat-message">There are no PC on the selected budget.</div>
+            <div class="cat-message">／人 ◕‿‿◕ 人＼</div>
+            <div class="cat-message">Please change the prices.</div>
+
+        </div>
+        <div v-for="prebuilt in visiblePrebuilts" class="item">
             <div class="itemHeader">
                 <div class="itemTitle">{{prebuilt.tier}} Tier</div>
                 <div class="itemTitlePrice">${{prebuilt.price}}*</div>

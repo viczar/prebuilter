@@ -93,6 +93,45 @@ body {
     grid-gap: 16px;
 }    
 
+#price-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+}
+
+.price-item {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.price-item-header {
+    background-color: #FF580D;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Nova Flat', cursive;
+    padding: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.price-item-content {
+    padding: 8px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: #0094FF 2px solid;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 5rem;
+}
+
+input:focus {
+    border-bottom: #FF580D 2px solid;
+}
+
 .item {
     min-width: 864px;
     max-width: 864px;
@@ -100,6 +139,12 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.cat-message {
+    font-size: 2rem;
+    padding: 16px;
+    text-align: center;
+}
+ 
 .itemArticleHeader {
     color: white;
     background: #FF580D;
