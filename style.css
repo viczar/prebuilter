@@ -184,6 +184,7 @@ input:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 12px;
+    align-items: center;
 }
 
 img {
